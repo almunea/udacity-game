@@ -1,4 +1,4 @@
-#frontend-nanodegree-arcade-game
+# frontend-nanodegree-arcade-game
 ===============================
 
 ### To run the game: 
@@ -10,6 +10,6 @@ and open `index.html` file.
 
 
 
-###To play game: 
+### To play game: 
 
 You have to use the arrow up-down-right-left to move the player.
