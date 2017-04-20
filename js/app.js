@@ -23,12 +23,13 @@ Enemy.prototype.update = function(dt) {
         this.speed = 100 + Math.floor(Math.random() * 512);
     }
     // Draw the enemy on the screen, required method for game
-    Enemy.prototype.render = function() {
-        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-    };
+
     // Check for collision with Player
     this.checkCollision();
 
+};
+Enemy.prototype.render = function() {
+    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 // collision with Player check
 Enemy.prototype.checkCollision = function() {
